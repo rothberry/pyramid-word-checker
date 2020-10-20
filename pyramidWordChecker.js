@@ -41,20 +41,22 @@ const createLongWordTrue = n => {
   return arr.join("")
 }
 
+export default pyramidChecker
+
 // TESTING
 // =======================
-let word = "banana"
-console.log(word)
-console.log(pyramidChecker(word))
+// let word = "banana"
+// console.log(word)
+// console.log(pyramidChecker(word))
 
-word = "bandana"
-console.log(word)
-console.log(pyramidChecker(word))
+// word = "bandana"
+// console.log(word)
+// console.log(pyramidChecker(word))
 
-word = "ppipioypipooouu"
-console.log(word)
-console.log(pyramidChecker(word))
+// word = "ppipioypipooouu"
+// console.log(word)
+// console.log(pyramidChecker(word))
 
-word = createLongWordTrue(26)
-console.log(word)
-console.log(pyramidChecker(word))
+// word = createLongWordTrue(26)
+// console.log(word)
+// console.log(pyramidChecker(word))

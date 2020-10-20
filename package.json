@@ -1,0 +1,26 @@
+{
+  "name": "pyramid-word-checker",
+  "version": "1.0.0",
+  "description": "pyramid http word checker",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -r esm server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rothberry/pyramid-word-checker.git"
+  },
+  "author": "rothberry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rothberry/pyramid-word-checker/issues"
+  },
+  "homepage": "https://github.com/rothberry/pyramid-word-checker#readme",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}
