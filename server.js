@@ -1,5 +1,6 @@
 import express from "express"
 import pyramidChecker from "./pyramidWordChecker"
+
 const app = express()
 const PORT = process.env.PORT || 3001
 
@@ -10,14 +11,12 @@ app.use(express.json())
 // Routes
 // =============================================================
 app.get("/", (req, res) => {
-  res.send("/HI")
-  // let word = 'banana'
-  // res.send(pyramidChecker(word))
+  res.send("HI")
 })
 
 app.post("/check", ({ body }, res) => {
   // Checks if post request is a valid pyramid word
-  console.log(body)
+  // console.log(body)
   if (pyramidChecker(body.word)) {
     res.send(`${body.word} is a pyramid word`)
   } else {
